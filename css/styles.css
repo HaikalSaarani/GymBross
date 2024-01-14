@@ -1,0 +1,126 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body font and margin */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for membership section */
+.membership {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for each membership type box */
+.membership li {
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for user actions section */
+.user-actions {
+    margin-top: 20px;
+}
+
+/* Style for navigation links */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.container {
+    margin-left: 80px;
+    padding-top: 20px; /* Adjust the margin to ensure content doesn't get overlapped */
+}
+.sidebar {
+    height: 100vh;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding-top: 50px;
+}
+
+.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.sidebar a:hover {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.content {
+    margin-left: 10px;
+    padding: 20px;
+}
+
+/* Style for footer */
+
+/* Style for button-like links */
+.button-container {
+    text-align: center;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #555;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="password"] {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for error messages */
+span.error {
+    color: red;
+    display: block;
+    margin-top: 5px;
+}
+.login-form{
+    padding: 10px;
+}
